@@ -20,7 +20,7 @@ const TicTacToeMain = () => {
             setCurrentPage={setCurrentPage} player1={player1} player2={player2} setPlayer1={setPlayer1} setPlayer2={setPlayer2}
             setWinner={setWinner} winner={winner}/> 
             : ""}
-            {currentPage === "over"? <h1>TATA BYBY KHATAM GAYA</h1>:""}
+            {currentPage === "over"? <h1 style={{fontStyle: "italic"}}>THANK YOU FOR PLAYING!🤗🎯</h1>:""}
         </>
     )
 }
