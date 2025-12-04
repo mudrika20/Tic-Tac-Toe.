@@ -11,9 +11,9 @@ const Game = (props) => {
     const [sign9, setSign9] = useState("__");
     const [toggle, setToggle] = useState(1);
     const dimension = {
-        height:120,
-        width:120,
-        fontSize:40
+        height:60,
+        width:60,
+        fontSize:20
     }
     const determinationOfWhoseTurn = (buttonNumber) => {
         const currentSign=toggle%2!==0?"X":"0"; 
